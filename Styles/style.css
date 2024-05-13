@@ -1,3 +1,20 @@
 body {
+    background-color: white
+}
+
+.survey-header {
+    font-weight: bolder;
+}
+.form-input {
     background-color: bisque;
+    padding: 16px 8px;
+}
+.h3-text {
+    margin-bottom: 20px;
+}
+.form-control.gender {
+    width: 30%;
+}
+span {
+    font-weight: bold;
 }
