@@ -1,13 +1,29 @@
 body {
-    background-color: white
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .survey-header {
     font-weight: bolder;
 }
 .form-input {
-    background-color: bisque;
+    background-color: rgb(64, 63, 63);
+    border-radius: 10px;
+    min-width: max-content;
+    color: white;
+}
+.submit {
+    background-color: gray;
+    color: white;
+    border: none;
     padding: 16px 8px;
+    width: 50%;
+    margin: 0 auto;
 }
 .h3-text {
     margin-bottom: 20px;
